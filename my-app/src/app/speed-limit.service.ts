@@ -1,0 +1,13 @@
+import { Speed } from './speed';
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import { of } from 'rxjs/observable/of';
+@Injectable()
+export class SpeedLimitService {
+
+  constructor() { }
+
+  getSpeedLimt():  Observable<Speed> {
+    return undefined;
+  }
+}
